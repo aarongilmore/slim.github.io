@@ -62,7 +62,7 @@ a:visited {
 /********** Content **********/
 
 .content {
-	width: 1040px;
+	max-width: 1040px;
 	margin: 0 auto;
 	display: block;
 	padding-top: 5em;
@@ -79,7 +79,7 @@ a:visited {
 }
 
 .features-container {
-	max-width: 960px;
+	max-width: 900px;
 	margin: 0 auto;
 	padding: 65px 0;
 	text-align: center;
@@ -135,7 +135,7 @@ button.notify:hover {
 }
 
 .footer {
-	width: 1040px;
+	width: 900px;
 	margin: 0 auto;
 	display: block;
 	padding: 3em 0 0em 0;
