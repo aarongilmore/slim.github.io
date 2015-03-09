@@ -1,37 +1,61 @@
-# Slim
+# [HTML5 Boilerplate](http://html5boilerplate.com)
 
-Slim is a simple weight management and goal tracking app. 
+HTML5 Boilerplate is a professional front-end template for building fast,
+robust, and adaptable web apps or sites.
+
+This project is the product of many years of iterative development and combined
+community knowledge. It does not impose a specific development philosophy or
+framework, so you're free to architect your code in the way that you want.
+
+* Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
+* Homepage: [http://html5boilerplate.com](http://html5boilerplate.com)
+* Twitter: [@h5bp](http://twitter.com/h5bp)
+
+
+## Quick start
+
+Choose one of the following options:
+
+1. Download the latest stable release from
+   [html5boilerplate.com](http://html5boilerplate.com/) or a custom build from
+   [Initializr](http://www.initializr.com).
+2. Clone the git repo — `git clone
+   https://github.com/h5bp/html5-boilerplate.git` - and checkout the tagged
+   release you'd like to use.
+
 
 ## Features
 
-The app will consist of two main features: 
+* HTML5 ready. Use the new elements with confidence.
+* Cross-browser compatible (Chrome, Opera, Safari, Firefox 3.6+, IE6+).
+* Designed with progressive enhancement in mind.
+* Includes [Normalize.css](http://necolas.github.com/normalize.css/) for CSS
+  normalizations and common bug fixes.
+* The latest [jQuery](http://jquery.com/) via CDN, with a local fallback.
+* The latest [Modernizr](http://modernizr.com/) build for feature detection.
+* IE-specific classes for easier cross-browser control.
+* Placeholder CSS Media Queries.
+* Useful CSS helpers.
+* Default print CSS, performance optimized.
+* Protection against any stray `console.log` causing JavaScript errors in
+  IE6/7.
+* An optimized Google Analytics snippet.
+* Apache server caching, compression, and other configuration defaults for
+  Grade-A performance.
+* Cross-domain Ajax and Flash.
+* "Delete-key friendly." Easy to strip out parts you don't need.
+* Extensive inline and accompanying documentation.
 
-- A weight tracker; a place where you can keep a log of you weight loss or weight gain progress. 
 
-- A social element where you can nudge your friends into making better daily decisions about their health. 
+## Documentation
 
-## Nice-to-have
+Take a look at the [documentation table of contents](doc/TOC.md). This
+documentation is bundled with the project, which makes it readily available for
+offline reading and provides a useful starting point for any documentation you
+want to write about your project.
 
-- Connect and sync data from Wi-Fi scales.
-- HealthKit integration.
-- Exporting your data.
 
-## Why?
+## Contributing
 
-The idea is that moderation and taking small steps are key to become a healthier person.
-
-Diets don’t work, at least not for me and I bet a lot of people struggle with them as well, depriving yourself of something will ultimately cause you to fail. “I’m not eating pizza for 6 months”, fuck that. 😍🍕.
-
-I’ve always been a fairly healthy and active person, but I went through a spell of about 2 years when I chose to sit in front of a screen instead of going to the gym. Now, I’m the healthiest I’ve been since that 2 year spell. It was a slow process, but the important thing is I got there.
-
-## Similar Apps
-
-[Weightbot](http://tapbots.com/software/weightbot/) is the only app that I’ve found that keep things as simple as I want them to be, it’s a great app but it’s outdated—the last update shipped in July 2010.
-
-There are a huge amount of health related apps in the App Store, many of which try to do too much and some which are horribly executed. 
-
-## Risks
-
-I guess the biggest risk is that nobody uses the app, except for me. Another is that is gets completely lost in the App Store amongst the many other health related apps. 
-
-I would consider the app a success if it helped a handful of people to considerably improve their health.
+Anyone and everyone is welcome to [contribute](CONTRIBUTING.md). Hundreds of
+developers have helped make the HTML5 Boilerplate what it is today.
