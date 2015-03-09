@@ -99,7 +99,7 @@ form {text-align: left;}
   width: 400px;
 }
 
-#mc-embedded-subscribe-form .email-input  {
+#mc-embedded-subscribe-form input  {
   font-size: 0.9em;
   width: 300px;
   height: 40px;
@@ -109,7 +109,7 @@ form {text-align: left;}
   vertical-align: bottom;
 }
 
-#mc-embedded-subscribe-form .email-input:focus{
+#mc-embedded-subscribe-form input:focus{
   outline: none;
   border: 1px solid #5CD185;
 }
