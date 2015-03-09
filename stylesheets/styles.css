@@ -65,7 +65,11 @@ code, pre {
 
 pre {
   padding:8px 15px;
+<<<<<<< HEAD
   background: #f8f8f8;  
+=======
+  background: #f8f8f8;
+>>>>>>> master
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
@@ -104,9 +108,15 @@ header {
 header ul {
   list-style:none;
   height:40px;
+<<<<<<< HEAD
   
   padding:0;
   
+=======
+
+  padding:0;
+
+>>>>>>> master
   background: #eee;
   background: -moz-linear-gradient(top, #f8f8f8 0%, #dddddd 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#dddddd));
@@ -114,7 +124,11 @@ header ul {
   background: -o-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
   background: -ms-linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
   background: linear-gradient(top, #f8f8f8 0%,#dddddd 100%);
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> master
   border-radius:5px;
   border:1px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
@@ -184,33 +198,57 @@ footer {
 }
 
 @media print, screen and (max-width: 960px) {
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> master
   div.wrapper {
     width:auto;
     margin:0;
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> master
   header, section, footer {
     float:none;
     position:static;
     width:auto;
   }
+<<<<<<< HEAD
   
   header {
     padding-right:320px;
   }
   
+=======
+
+  header {
+    padding-right:320px;
+  }
+
+>>>>>>> master
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
+<<<<<<< HEAD
   
   header a small {
     display:inline;
   }
   
+=======
+
+  header a small {
+    display:inline;
+  }
+
+>>>>>>> master
   header ul {
     position:absolute;
     right:50px;
@@ -222,6 +260,7 @@ footer {
   body {
     word-wrap:break-word;
   }
+<<<<<<< HEAD
   
   header {
     padding:0;
@@ -231,6 +270,17 @@ footer {
     position:static;
   }
   
+=======
+
+  header {
+    padding:0;
+  }
+
+  header ul, header p.view {
+    position:static;
+  }
+
+>>>>>>> master
   pre, code {
     word-wrap:normal;
   }
@@ -240,7 +290,11 @@ footer {
   body {
     padding:15px;
   }
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> master
   header ul {
     display:none;
   }
