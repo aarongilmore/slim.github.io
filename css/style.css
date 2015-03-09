@@ -13,15 +13,15 @@
 body {
 	font-family: 'Helvetica Neue', sans-serif;
 	font-weight: 300;
-	color: #555;
+	color: #828282;
 }
 
-h1 { font-size: 2em; font-weight: 300;       /* 2*16 = 32 */         }
-h2 { font-size: 1.5em; font-weight: 300;     /* 1.5*16 = 24 */       }
-h3 { font-size: 1.25em; font-weight: bold;    /* 1.25*16 = 20 */      }
-h4 { font-size: 1em; font-weight: bold;       /* 1*16 = 16 */         }
-h5 { font-size: 0.83em; font-weight: bold;    /* 0.83*16 = 13.28 */   }
-h6 { font-size: 0.75em; font-weight: bold;    /* 0.75*16 = 12 */      }
+h1 { font-size: 2.4em; font-weight: 200; color: #555;}
+h2 { font-size: 1.5em; font-weight: 300;}
+h3 { font-size: 1.25em; font-weight: bold;}
+h4 { font-size: 1em; font-weight: bold;}
+h5 { font-size: 0.83em; font-weight: bold;}
+h6 { font-size: 0.75em; font-weight: bold;}
 
 h1.lead {
 	margin-bottom: 0;
@@ -29,6 +29,7 @@ h1.lead {
 
 h2.lead {
 	margin-bottom: 1em;
+	margin-top: 0.2em;
 }
 
 p {
@@ -79,7 +80,7 @@ a:visited {
 }
 
 .features-container {
-	max-width: 900px;
+	max-width: 960px;
 	margin: 0 auto;
 	padding: 65px 0;
 	text-align: center;
@@ -91,12 +92,16 @@ a:visited {
 	margin-bottom: 0;
 }
 
+.icon {
+	margin-bottom: 10px;
+}
+
 /********** Form **********/
 
 form {text-align: left;}
 
 #form-box {
-  width: 400px;
+  width: 450px;
 }
 
 #mc-embedded-subscribe-form input  {
@@ -116,14 +121,14 @@ form {text-align: left;}
 
 button.notify {
   color: #fff;  
-  width: 80px;
+  width: 100px;
   height: 42px;
   border-radius: 5px;
   background-color: #5CD185;
-  border: none;
   font-size: 0.8em;
-  font-weight: bold;
-
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 1px;
 }
 
 button.notify:hover {
@@ -135,7 +140,7 @@ button.notify:hover {
 }
 
 .footer {
-	width: 900px;
+	width: 960px;
 	margin: 0 auto;
 	display: block;
 	padding: 3em 0 0em 0;
@@ -159,6 +164,11 @@ button.notify:hover {
 		margin: 0 auto;
 		display: block;
 		padding-top: 0em;
+	}
+
+	#iphone {
+		margin: 0 auto;
+  		display: block;
 	}
 
 	.features-container {
