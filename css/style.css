@@ -185,12 +185,11 @@ button.notify:hover {
 	}
 
 	.email-input {
-		width: auto;
+		width: 300px;
 	}
 
 	button.notify {
-		float: left;
-		width: 312px;
+		width: 300px;
 		margin: 0 auto;
 		display: block;
 		margin-top: 5px;
