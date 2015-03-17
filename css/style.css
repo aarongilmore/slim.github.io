@@ -16,12 +16,12 @@ body {
 	color: #828282;
 }
 
-h1 { font-size: 2.4em; font-weight: 200; color: #555;}
-h2 { font-size: 1.5em; font-weight: 300;}
-h3 { font-size: 1.25em; font-weight: bold;}
-h4 { font-size: 1em; font-weight: bold;}
-h5 { font-size: 0.83em; font-weight: bold;}
-h6 { font-size: 0.75em; font-weight: bold;}
+h1 {font-size: 2.4em; font-weight: 200; color: #555;}
+h2 {font-size: 1.5em; font-weight: 300;}
+h3 {font-size: 1.25em; font-weight: bold;}
+h4 {font-size: 1em; font-weight: bold;}
+h5 {font-size: 0.83em; font-weight: bold;}
+h6 {font-size: 0.75em; font-weight: bold;}
 
 h1.lead {
 	margin-bottom: 0;
@@ -52,7 +52,7 @@ a:visited {
 /********** Header **********/
 
 
-#iphone {
+#device {
 	width: 300px;
 	height: 390px;
 	margin: 15px 0px 0px;
@@ -63,7 +63,7 @@ a:visited {
 /********** Content **********/
 
 .content {
-	max-width: 1040px;
+	max-width: 65em;
 	margin: 0 auto;
 	display: block;
 	padding-top: 5em;
@@ -80,7 +80,7 @@ a:visited {
 }
 
 .features-container {
-	max-width: 960px;
+	max-width: 65em;
 	margin: 0 auto;
 	padding: 65px 0;
 	text-align: center;
@@ -98,61 +98,63 @@ a:visited {
 
 /********** Form **********/
 
-form {text-align: left;}
+form {
+  	text-align: left;
+}
 
 #form-box {
-  width: 450px;
+  	width: 450px;
 }
 
 #mc-embedded-subscribe-form input  {
-  font-size: 0.9em;
-  width: 300px;
-  height: 40px;
-  border-radius: 5px;
-  border: 1px solid #c5c5c5;
-  padding-left: 10px;
-  vertical-align: bottom;
+  	font-size: 0.9em;
+  	width: 300px;
+  	height: 40px;
+  	border-radius: 5px;
+  	border: 1px solid #c5c5c5;
+  	padding-left: 10px;
+  	vertical-align: bottom;
 }
 
 #mc-embedded-subscribe-form input:focus{
-  outline: none;
-  border: 1px solid #5CD185;
+  	outline: none;
+  	border: 1px solid #5CD185;
 }
 
 button.notify {
-  color: #fff;  
-  width: 100px;
-  height: 42px;
-  border-radius: 5px;
-  background-color: #5CD185;
-  font-size: 0.8em;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding-top: 1px;
+  	color: #fff;  
+  	width: 100px;
+  	height: 42px;
+  	border-radius: 5px;
+  	background-color: #5CD185;
+  	font-size: 0.8em;
+  	font-weight: 600;
+  	text-transform: uppercase;
+  	padding-top: 1px;
 }
 
 button.notify:hover {
-  color: #fff;  
-  height: 42px;
-  border-radius: 5px;
-  background-color: #44bb6e;
+  	color: #fff;  
+  	height: 42px;
+  	border-radius: 5px;
+  	background-color: #44bb6e;
   border: none;
 }
 
 .footer {
-	width: 960px;
-	margin: 0 auto;
-	display: block;
-	padding: 3em 0 0em 0;
+  	width: 65em;
+  	margin: 0 auto;
+  	display: block;
+  	padding: 3em 0 0em 0;
 }
 
 .footer a {
-	color: #549FF9;
-	text-decoration: none;
+  	color: #549FF9;
+  	text-decoration: none;
 }
 
 .footer p {
-	color: #89949b;
+  	color: #89949b;
 }
 
 
@@ -166,7 +168,7 @@ button.notify:hover {
 		padding-top: 0em;
 	}
 
-	#iphone {
+	#device {
 		margin: 0 auto;
   		display: block;
 	}
